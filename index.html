@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quantico&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" href="">
     <title>Ray Hernandez</title>
 </head>
 <body>
@@ -31,9 +33,8 @@
                     </div>
 
                     <ul id="navigation">
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Contact</a></li>                      
+                        <li><a href="#contact-form">Contact</a></li>                    
+                        <li><a href="#portfolio-form">Portfolio</a></li>                    
                     </ul>
                 </div>
                 <div class="left-column">
@@ -41,10 +42,10 @@
                     <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dots"></div>
-                        <div id="blue-mode" class="theme-dots"></div>
-                        <div id="green-mode" class="theme-dots"></div>
-                        <div id="purple-mode" class="theme-dots"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dots"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dots"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dots"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dots"></div>
                     </div>
 
                     <p id="settings-note">Theme options will be saved<br> for your next visit</p>
@@ -72,68 +73,149 @@
             <div class="about-wrapper">
                 <div class="about-me">
                     <h4>More About Me</h4>
-                        <p>
-                        Why do we use it?
+                    <p>
+                    Why do we use it?
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                    <p>This is just some dummy text to fill out the page!!!!!     Why do we use it?
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                        </p>
-                        <p>This is just some dummy text to fill out the page!!!!!     Why do we use it?
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                        </p>
+                    </p>
+                    
+                    <hr>
+                    
+                    <h4>Top Expertise</h4>
+                    
+                    <p>Take a look at my resume here: <a target="_blank" href="Raymundo J._Hernandez_Resume-8.1.pdf">See Here!</a></p>
+                    
+                    <div id="skills">
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node</li>
+                        </ul>
                         
-                        <hr>
-                        
-                        <h4>Top Expertise</h4>
-                        
-                        <p>Take a look at my resume here: <a target="_blank" href="Raymundo J._Hernandez_Resume-8.1.pdf">See Here!</a></p>
-                        
-                        <div id="skills">
-                            
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>MongoDB</li>
-                                <li>Express</li>
-                                <li>React</li>
-                                <li>Node</li>
-                            </ul>
-                            
-                            <ul>
-                                <li>Vue</li>
-                                <li>Angular</li>
-                                <li>Heroku</li>
-                                <li>Github</li>
-                                <li>MySQL</li>
-                            </ul>
-                            
-                        </div>
-                        
-                        <div class="social-links">
-                            <p>
-                                Why do we use it?
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            </p>
-                            <p>
-                                Why do we use it?
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            </p>
-                            <p>
-                                Why do we use it?
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            </p>
-                        </div>
+                        <ul>
+                            <li>Vue</li>
+                            <li>Angular</li>
+                            <li>Heroku</li>
+                            <li>Github</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="social-links">
+                    <img id="emp-dir" src="./images/Directory-Shot.png" alt="Image of an employee directory">
+                    <h3>Please check out my social media</h3>
+
+                    <a href="https://www.linkedin.com/in/raymundo-hernandez-937366181/">LinkedIn Profile</a>
+                    
+                    <br>
+
+                    <a href="https://github.com/rjhern37">Github Profile</a>
                 </div>
             </div>
         </div>
     </section>
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 id="portfolio-form" style="text-align: center;">
+                Portfolio
+            </h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+          
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now. this is a sentence. some other stuff for now. this is a sentence. some other stuff for now.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now. this is a sentence. some other stuff for now. this is a sentence. some other stuff for now.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now. this is a sentence. some other stuff for now. this is a sentence. some other stuff for now.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/Profile-Shot.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">this is a sentence. some other stuff for now. this is a sentence. some other stuff for now. this is a sentence. some other stuff for now.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </section>
     <section class="s2">
         <div class="main-container">
-            Contact
+
+            <h3 style="text-align: center;">Contact me</h3>
+
+            <form id="contact-form">
+                <label>Name:</label>
+                <input class="input-field" type="text" name="name">
+                <label>Subject:</label>
+                <input class="input-field" type="text" name="subject">
+                <label>Email:</label>
+                <input class="input-field" type="text" name="email">
+                <label>Message:</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="send">
+
+            </form>
+
         </div>
     </section>
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
