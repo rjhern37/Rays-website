@@ -175,7 +175,7 @@ h6{
 #profile-pic{
     display: block;
     margin: 0 auto;
-    width: 275px;
+    width: 360px;
     height: 275px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
