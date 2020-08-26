@@ -19,16 +19,16 @@ This is my personal portfolio I have built with HTML, CSS, and JS. Please take a
 
 
 ## Installation
-npm i
+No need to install, please click the link in my repo page.
 
 ## Usage
 <img alt="app visual demo" src="assets/Rays-websiteGify.gif"/>
 
 ## Test
-npm test
+There are currently no tests for this project. 
 
 ## License
-
+NONE
 
 ## Picture
 <img src="https://avatars1.githubusercontent.com/u/59975055?v=4"/>
