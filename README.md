@@ -7,7 +7,7 @@ Rays-website
 https://github.com/rjhern37/rays-website
 
 ## Description 
-This is my personal portfolio I have built with HTML, CSS, and JS. Please take a look and let me know what you think! I was able to make this portfolio with the help of Traversy Media & Dennis Invy. 
+This is my personal portfolio I have built with HTML, CSS, and JS. The purpose of this project was to showcase my skills by making a portfolio with the most basic of technologies. Please take a look and let me know what you think! I was able to make this portfolio with the help of Traversy Media & Dennis Invy. 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,7 +19,7 @@ This is my personal portfolio I have built with HTML, CSS, and JS. Please take a
 
 
 ## Installation
-No need to install, please click the link in my repo page.
+No need to install, please click the link on my repo page.
 
 ## Usage
 <img alt="app visual demo" src="assets/Rays-websiteGify.gif"/>
@@ -28,7 +28,7 @@ No need to install, please click the link in my repo page.
 There are currently no tests for this project. 
 
 ## License
-NONE
+N/A
 
 ## Picture
 <img src="https://avatars1.githubusercontent.com/u/59975055?v=4"/>
