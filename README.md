@@ -6,6 +6,9 @@ Rays-website
 # Project URL
 https://github.com/rjhern37/rays-website
 
+# Deployed Link 
+https://rjhern37.github.io/Color-Game/
+
 ## Description 
 This is my personal portfolio I have built with HTML, CSS, and JS. The purpose of this project was to showcase my skills by making a portfolio with the most basic of technologies. Please take a look and let me know what you think! I was able to make this portfolio with the help of Traversy Media & Dennis Invy. 
 
